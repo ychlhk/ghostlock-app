@@ -34,6 +34,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.ghostlock.app.BuildConfig
 import com.ghostlock.app.R
+import com.ghostlock.app.data.OtaSources
 import com.ghostlock.app.domain.model.ProfileConfig
 import com.ghostlock.app.domain.model.ProfileFieldNode
 import com.ghostlock.app.domain.model.UserProfileFile
@@ -389,6 +390,16 @@ internal fun LoadConfigScreen(
                     ArrowPreference(
                         title = stringResource(R.string.action_parse_ota),
                         onClick = actions::onParseOta,
+                    )
+                }
+            }
+            item(key = "parse-ota-source") {
+                val uriHandler = LocalUriHandler.current
+                Card(modifier = Modifier.preferencePageItem()) {
+                    ArrowPreference(
+                        title = stringResource(R.string.action_ota_source_plr110),
+                        summary = stringResource(R.string.action_ota_source_plr110_summary),
+                        onClick = { uriHandler.openUri(OtaSources.ONEPLUS_PLR110) },
                     )
                 }
             }

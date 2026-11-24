@@ -13,6 +13,8 @@
 <string name="action_import_offsets_json">Importar offsets.json (v1)</string>
 <string name="action_parse">Analisar imagem local</string>
 <string name="action_parse_ota">Analisar link OTA</string>
+<string name="action_ota_source_plr110">OTA completa OnePlus PLR110 (espelho)</string>
+<string name="action_ota_source_plr110_summary">roms.lian86.top · OnePlus 13 CN</string>
 <string name="action_run">Correr</string>
 <string name="action_running">Correndo…</string>
 <string name="advanced_settings">Opções avançadas</string>
