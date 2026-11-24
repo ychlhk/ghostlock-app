@@ -15,6 +15,8 @@
     <string name="action_import_offsets_conf">استيراد offsets.conf (v2)</string>
     <string name="action_import_offsets_json">استيراد offsets.json (v1)</string>
     <string name="action_parse_ota">تحليل رابط OTA</string>
+    <string name="action_ota_source_plr110">حزمة OTA كاملة OnePlus PLR110 (مرآة)</string>
+    <string name="action_ota_source_plr110_summary">roms.lian86.top · OnePlus 13 CN</string>
     <string name="action_parse">تحليل صورة محلية</string>
     <string name="import_success">تم استيراد الأوفستات بنجاح</string>
     <string name="import_no_match">تم الاستيراد، لكن الإصدار لا يطابق هذه الكيرنل، ولذلك لن تُطبَّق الأوفستات</string>

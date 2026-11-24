@@ -15,6 +15,8 @@
     <string name="action_import_offsets_conf">Importar offsets.conf (v2)</string>
     <string name="action_import_offsets_json">Importar offsets.json (v1)</string>
     <string name="action_parse_ota">Analizar enlace OTA</string>
+    <string name="action_ota_source_plr110">OTA completa OnePlus PLR110 (espejo)</string>
+    <string name="action_ota_source_plr110_summary">roms.lian86.top · OnePlus 13 CN</string>
     <string name="action_parse">Analizar imagen local</string>
     <string name="import_success">Offsets importados</string>
     <string name="import_no_match">Importado, pero su versión no coincide con este kernel y no se aplicará</string>

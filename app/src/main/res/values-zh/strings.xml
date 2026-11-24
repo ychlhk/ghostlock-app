@@ -15,6 +15,8 @@
     <string name="action_import_offsets_conf">导入 offsets.conf（v2）</string>
     <string name="action_import_offsets_json">导入 offsets.json（v1）</string>
     <string name="action_parse_ota">解析完整包链接</string>
+    <string name="action_ota_source_plr110">一加 PLR110 全量包（镜像站）</string>
+    <string name="action_ota_source_plr110_summary">roms.lian86.top · 一加 13 国行</string>
     <string name="action_parse">解析本地镜像</string>
     <string name="import_success">偏移已导入</string>
     <string name="import_no_match">已导入，但 release 与本机内核不匹配，不会生效</string>
